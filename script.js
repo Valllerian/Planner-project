@@ -1,9 +1,8 @@
-var presentTime = moment();
 
-function updateClock() {
-    $("#currentDay").text(presentTime.format("dddd, MMMM Do HH:mm:ss"));
-}
+function displayTime() {
+    var rightNow = moment();
+    $("#currentDay").text(rightNow.format('MMM DD, YYYY [at] hh:mm:ss a'));
+  
+  }
 
-setInterval(updateClock, 1000);
-
-// create a function to update time every second
+  setInterval(displayTime, 1000);
