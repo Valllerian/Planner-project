@@ -1,3 +1,108 @@
+// Setting var for each input line
+var taskNineAM = $('#taskNineAM');
+var taskTenAM = $('#taskTenAM');
+var taskElevenAM = $('#taskElevenAM');
+var taskNoon = $('#taskNoon');
+var taskOnePM = $('#taskOnePM');
+var taskTwoPM = $('#taskTwoPM');
+var taskThreePM = $('#taskThreePM');
+var taskFourPM = $('#taskFourPM');
+var taskFivePM = $('#taskFivePM');
+
+// Setting var for each save button
+var buttonNineAM = $('#buttonNineAM');
+var buttonTenAM = $('#buttonTenAM');
+var buttonElevenAM = $('#buttonElevenPM');
+var buttonNoon = $('#buttonNoon');
+var buttonOnePM = $('#buttonOnePM');
+var buttonTwoPM = $('#buttonTwoPM');
+var buttonThreePM = $('#buttonThreePM');
+var buttonFourPM = $('#buttonFourPM');
+var buttonFivePM = $('#buttonFivePM');
+
+
+// adding events on click for each button
+// task Nine AM
+$('#buttonNineAM').click(function() {
+    localStorage.setItem("taskNineAM", taskNineAM.val())
+    ;
+              
+     })
+     
+     $('#taskNineAM').text(localStorage.getItem("taskNineAM"));
+
+// task Ten AM
+$('#buttonTenAM').click(function() {
+    localStorage.setItem("taskTenAM", taskTenAM.val())
+    ;
+              
+     })
+     
+     $('#taskTenAM').text(localStorage.getItem("taskTenAM"));
+
+// task Eleven AM
+$('#buttonElevenPM').click(function() {
+    localStorage.setItem("taskElevenAM", taskElevenAM.val())
+    ;
+              
+     })
+     
+     $('#taskElevenAM').text(localStorage.getItem("taskElevenAM"));
+
+// task Noon
+$('#buttonNoon').click(function() {
+    localStorage.setItem("taskNoon", taskNoon.val())
+    ;
+              
+     })
+     
+     $('#taskNoon').text(localStorage.getItem("taskNoon"));
+
+// task One PM
+$('#buttonOnePM').click(function() {
+    localStorage.setItem("taskOnePM", taskOnePM.val())
+    ;
+              
+     })
+     
+     $('#taskOnePM').text(localStorage.getItem("taskOnePM"));
+
+// task Two PM
+$('#buttonTwoPM').click(function() {
+    localStorage.setItem("taskTwoPM", taskTwoPM.val())
+    ;
+              
+     })
+     
+     $('#taskTwoPM').text(localStorage.getItem("taskTwoPM"));
+
+// task Three PM
+$('#buttonThreePM').click(function() {
+    localStorage.setItem("taskThreePM", taskThreePM.val())
+    ;
+              
+     })
+     
+     $('#taskThreePM').text(localStorage.getItem("taskThreePM"));
+
+// task Four PM
+$('#buttonFourPM').click(function() {
+    localStorage.setItem("taskFourPM", taskFourPM.val())
+    ;
+              
+     })
+     
+     $('#taskFourPM').text(localStorage.getItem("taskFourPM"));
+
+// task Five PM
+$('#buttonFivePM').click(function() {
+    localStorage.setItem("taskFivePM", taskFivePM.val())
+    ;
+              
+     })
+     
+    $('#taskFivePM').text(localStorage.getItem("taskFivePM"));
+
 // Displaying current date and time
 function Timer() {
     var showTime = moment();
@@ -95,7 +200,8 @@ function Timer() {
            }
         };
 
-      
+
+
         
     
 
