@@ -29,7 +29,9 @@ $('#buttonNineAM').click(function() {
               
      })
      
-     $('#taskNineAM').text(localStorage.getItem("taskNineAM"));
+    //  val() recalls the value from the storage - works right
+     $('#taskNineAM').val(localStorage.getItem("taskNineAM"));
+     
 
 // task Ten AM
 $('#buttonTenAM').click(function() {
@@ -38,7 +40,7 @@ $('#buttonTenAM').click(function() {
               
      })
      
-     $('#taskTenAM').text(localStorage.getItem("taskTenAM"));
+     $('#taskTenAM').val(localStorage.getItem("taskTenAM"));
 
 // task Eleven AM
 $('#buttonElevenPM').click(function() {
@@ -47,7 +49,7 @@ $('#buttonElevenPM').click(function() {
               
      })
      
-     $('#taskElevenAM').text(localStorage.getItem("taskElevenAM"));
+     $('#taskElevenAM').val(localStorage.getItem("taskElevenAM"));
 
 // task Noon
 $('#buttonNoon').click(function() {
@@ -56,7 +58,7 @@ $('#buttonNoon').click(function() {
               
      })
      
-     $('#taskNoon').text(localStorage.getItem("taskNoon"));
+     $('#taskNoon').val(localStorage.getItem("taskNoon"));
 
 // task One PM
 $('#buttonOnePM').click(function() {
@@ -65,7 +67,7 @@ $('#buttonOnePM').click(function() {
               
      })
      
-     $('#taskOnePM').text(localStorage.getItem("taskOnePM"));
+     $('#taskOnePM').val(localStorage.getItem("taskOnePM"));
 
 // task Two PM
 $('#buttonTwoPM').click(function() {
@@ -74,7 +76,8 @@ $('#buttonTwoPM').click(function() {
               
      })
      
-     $('#taskTwoPM').text(localStorage.getItem("taskTwoPM"));
+    
+     $('#taskTwoPM').val(localStorage.getItem("taskTwoPM"));
 
 // task Three PM
 $('#buttonThreePM').click(function() {
@@ -83,7 +86,7 @@ $('#buttonThreePM').click(function() {
               
      })
      
-     $('#taskThreePM').text(localStorage.getItem("taskThreePM"));
+     $('#taskThreePM').val(localStorage.getItem("taskThreePM"));
 
 // task Four PM
 $('#buttonFourPM').click(function() {
@@ -92,7 +95,7 @@ $('#buttonFourPM').click(function() {
               
      })
      
-     $('#taskFourPM').text(localStorage.getItem("taskFourPM"));
+     $('#taskFourPM').val(localStorage.getItem("taskFourPM"));
 
 // task Five PM
 $('#buttonFivePM').click(function() {
@@ -101,7 +104,7 @@ $('#buttonFivePM').click(function() {
               
      })
      
-    $('#taskFivePM').text(localStorage.getItem("taskFivePM"));
+    $('#taskFivePM').val(localStorage.getItem("taskFivePM"));
 
 // Displaying current date and time
 function Timer() {
