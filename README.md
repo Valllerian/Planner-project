@@ -32,7 +32,7 @@ input is being saved in the local storage.
 It is being pulled and shown in the input line after refresh or page load.
 
 <br>
-<img alt="Question and variants" src="assets/image2.jpg" />
+<img alt="Items saved in Local Storage" src="assets/image2.jpg" />
 <br>
 
 
